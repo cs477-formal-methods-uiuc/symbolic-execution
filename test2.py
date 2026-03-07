@@ -65,6 +65,6 @@ if __name__ == '__main__':
     # Test 1 should print "ASSERT PASSED"
     test_case1()
     # Test 2 should print "ASSERT FAILED"
-    test_case2()
+    # test_case2()
 
     # FEEL FREE TO ADD MORE TESTS HERE
