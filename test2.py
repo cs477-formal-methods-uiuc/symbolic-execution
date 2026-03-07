@@ -1,6 +1,6 @@
 from z3 import *
 
-from symbolicInterpreter2 import *
+from symbolicInterpreter import *
 
 
 def test_case1():
@@ -29,7 +29,7 @@ def test_case1():
 
     pathCondition = x==5
     store = {'x': x}
-    executeCommand(pathCondition, store, program)
+    executeCommandRec(pathCondition, store, program)
 
 
 def test_case2():
@@ -58,7 +58,7 @@ def test_case2():
 
     pathCondition = x==5
     store = {'x': x}
-    executeCommand(pathCondition, store, program)
+    executeCommandRec(pathCondition, store, program)
 
 
 if __name__ == '__main__':
