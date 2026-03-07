@@ -93,15 +93,3 @@ def executeCommand(pathCondition, store, command):
     else:
         print('ERROR')
         return None
-
-def checkSat(formula):
-    s = Solver()
-    s.add(formula)
-    if s.check() == sat:
-        return True 
-    else:
-        return False 
-
-def executeCommandRec(pathCondition, store, command):
-    # TODO
-    raise NotImplementedError("executeCommandRec is not implemented yet")
