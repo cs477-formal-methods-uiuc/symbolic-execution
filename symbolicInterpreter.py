@@ -54,7 +54,7 @@ def evaluateExpr(pathCondition, store, expr):
 
 
 
-def executeSkip(pathCondition, store):
+def executeSkip(pathCondition, store, command):
     return pathCondition, store
 
 
